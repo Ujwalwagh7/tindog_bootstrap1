@@ -1,0 +1,205 @@
+#title
+{
+	background-color: #FF4C68;
+}
+
+body
+{
+	font-family: monserrat;
+	
+}
+
+h1
+{
+	font-family:"Montserrat-Black";
+	line-height: 1.5;
+	font-size: 3rem;
+}
+
+h3
+{
+	font-family:"Montserrat-Black";
+	font-weight: bold
+	font-size: 1.5rem;	
+}
+h2
+{
+	font-family:"Montserrat-Bold";
+	line-height: 1.5;
+	font-size: 3rem;	
+}
+
+p
+{
+	color: gray;
+}
+
+.container-fluid
+{
+	padding: 3% 15% 7%;
+}
+
+/*Navigation bar*/
+.navbar
+{
+padding: 0 0 4.5rem;
+}
+
+.navbar-brand
+{
+	font-family: "ubuntu";
+	font-size: 2.5rem;
+	font-weight: bold;
+
+}
+.nav-item
+{
+	padding: 0 18px;
+}
+
+.nav-link
+{
+	font-family: montserrat-light;
+	font-size: 1.2rem;
+}
+
+
+/*button*/
+
+.download-button
+{
+margin: 5% 3% 5% 0;
+}
+
+
+/*tittle-image*/
+
+.tittle-image
+{
+	width: 50%;
+	transform: rotate(35deg);
+	right: 30%;
+	position: absolute;
+}
+
+
+/*section2*/
+
+#features
+{
+position: relative;
+padding: 7% 15%;
+background-color: #fff;
+z-index: 1;
+
+}
+
+.feature-box
+{
+	text-align: center;
+	padding: 5%;
+
+}
+
+.icon
+{
+	margin: 2%;
+	color: #ef8172;
+}
+
+.icon:hover
+{
+	
+	color: #FF4C68;
+}
+
+/*section3*/
+
+#testimonials
+{
+	padding: 7% 15%;
+	text-align: center;
+	color: #fff;
+	background-color: #ef8172;
+}
+
+.testimonial-image
+{
+	width: 10%;
+	border-radius: 100%;
+	margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;}
+
+
+#press
+{
+
+	background-color: #ef8172;
+	text-align: center;
+	padding-bottom: 3%;
+
+}
+
+.press-logo
+{
+width: 15%;
+margin: 20px 20px 15px;
+}
+
+/*pricing*/
+
+#pricing
+{
+	padding: 100px;
+	text-align: center;
+}
+
+.pricing-column
+{
+padding: 3% 2%;
+}
+
+#cta
+{
+	padding: 7% 15%;
+	text-align: center;
+	background-color: #FF4C68
+}
+
+
+#footer
+{
+	padding: 7% 15%;
+	text-align: center;
+
+}
+
+.social
+{
+	padding-bottom: 5%;
+}
+
+.spanspace
+{
+ padding-left: 25px;
+  padding-right: 25px;
+}
+
+
+
+@media (max-width:1028px)
+{
+	#title
+	{
+		text-align: center;
+	}
+	.tittle-image
+	{
+		position: static;
+		transform: rotate(0);
+	}
+}
+
